@@ -1,0 +1,7 @@
+{
+    "uuid": "gnomai@yourdomain.com",
+    "name": "Gnomai",
+    "description": "Switch between multiple AI APIs and keep a history of interactions.",
+    "shell-version": ["45", "46"],
+    "url": "syaagalib.me"
+}

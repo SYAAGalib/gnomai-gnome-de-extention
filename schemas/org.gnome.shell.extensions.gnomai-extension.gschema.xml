@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnomai-extension" path="/org/gnome/shell/extensions/gnomai-extension/">
+    <key name="ai-keys" type="as">
+      <default>[]</default>
+      <summary>List of AI API keys</summary>
+      <description>Stores the list of AI API keys and names.</description>
+    </key>
+    <key name="active-ai" type="s">
+      <default>''</default>
+      <summary>Active AI name</summary>
+      <description>The currently selected AI.</description>
+    </key>
+    <key name="history" type="as">
+      <default>[]</default>
+      <summary>History of AI interactions</summary>
+      <description>Stores the history of AI interactions.</description>
+    </key>
+  </schema>
+</schemalist>

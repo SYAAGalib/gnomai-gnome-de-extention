@@ -1,0 +1,42 @@
+/* Gnomai Extension Styles */
+.history-label {
+    padding: 16px 20px;
+    font-size: 13pt;
+    color: #222;
+    background: #f4f6fa;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-family: 'Cantarell', 'Segoe UI', Arial, sans-serif;
+    max-width: 400px;
+    min-width: 200px;
+    word-break: break-word;
+}
+
+.gnomai-menu-item {
+    font-size: 12pt;
+    padding: 8px 18px;
+    border-radius: 6px;
+    margin: 2px 0;
+    transition: background 0.2s;
+}
+.gnomai-menu-item:selected, .gnomai-menu-item:focus {
+    background: #e0f2e9;
+    color: #207a3c;
+}
+
+.gnomai-active-ai {
+    font-weight: bold;
+    color: #207a3c;
+    background: #e0f2e9;
+    border-radius: 6px;
+    padding: 6px 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.gnomai-dialog {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    padding: 18px 24px;
+}
